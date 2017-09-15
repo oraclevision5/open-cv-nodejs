@@ -7,16 +7,23 @@
     "cv",
     "computer vision",
     "image",
-    "processing",
     "detection",
     "recognition",
-    "tracking",
-    "matching",
     "face",
     "gesture",
     "machine",
     "learning"
   ],
+  "author": "justadudewhohacks",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oraclevision5/open-cv-nodejs"
+  },
+  "bugs": {
+    "url": "https://github.com/oraclevision5/open-cv-nodejs/issues"
+  },
+  "homepage": "https://github.com/oraclevision5/open-cv-nodejs#readme",
   "main": "./lib/opencv4nodejs.js",
   "scripts": {
     "install": "node-gyp rebuild",
@@ -24,12 +31,6 @@
     "build": "node-gyp configure build",
     "rebuild": "node-gyp rebuild",
     "clean": "node-gyp clean"
-  },
-  "author": "justadudewhohacks",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oraclevision5/open-cv-nodejs"
   },
   "gypfile": true,
   "dependencies": {
