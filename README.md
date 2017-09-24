@@ -1,6 +1,7 @@
 open-cv-nodejs
 =============
 [![Build Status](https://travis-ci.org/oraclevision5/open-cv-nodejs.svg?branch=master)](http://travis-ci.org/oraclevision5/open-cv-nodejs)
+[![Coverage](https://codecov.io/github/oraclevision5/open-cv-nodejs/coverage.svg?branch=master)](https://codecov.io/gh/oraclevision5/open-cv-nodejs)
 [![npm download](https://img.shields.io/npm/dm/open-cv-nodejs.svg?style=flat)](https://www.npmjs.com/package/open-cv-nodejs)
 [![node version](https://img.shields.io/badge/node.js-%3E=_6-green.svg?style=flat)](http://nodejs.org/download/)
 
@@ -13,7 +14,6 @@ open-cv-nodejs
  * **[Quick Start](#quick-start)**
  * **[Available Modules](#available-modules)**
 
-### <a href=""><b>API doc overview</b></a>
 <a name="examples"></a>
 
 ## Examples
@@ -292,14 +292,14 @@ const dst2 = src.gaussianBlur(new cv.Size(5, 5), 1.2, optionalArgs);
 
 ### <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/README.md"><b>API doc overview</b></a>
 
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/core/core.md"><b>core</b></a>
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/io/io.md"><b>io</b></a>
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/imgproc/imgproc.md"><b>imgproc</b></a>
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/ximgproc/ximgproc.md"><b>ximgproc</b></a>
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/objdetect/objdetect.md"><b>objdetect</b></a>
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/machinelearning/machinelearning.md"><b>machinelearning</b></a>
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/video/video.md"><b>video</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/core/"><b>core</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/io/"><b>io</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/imgproc/"><b>imgproc</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/ximgproc/"><b>ximgproc</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/objdetect/"><b>objdetect</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/machinelearning/"><b>machinelearning</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/video/"><b>video</b></a>
 * <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/calib3d.md"><b>calib3d</b></a>
 * <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/photo.md"><b>photo</b></a>
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/features2d/features2d.md"><b>features2d</b></a>
-* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/xfeatures2d/xfeatures2d.md"><b>xfeatures2d</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/features2d/"><b>features2d</b></a>
+* <a href="https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/xfeatures2d/"><b>xfeatures2d</b></a>
