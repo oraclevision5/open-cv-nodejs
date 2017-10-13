@@ -5,7 +5,7 @@ open-cv-nodejs
 [![npm download](https://img.shields.io/npm/dm/open-cv-nodejs.svg?style=flat)](https://www.npmjs.com/package/open-cv-nodejs)
 [![node version](https://img.shields.io/badge/node.js-%3E=_6-green.svg?style=flat)](http://nodejs.org/download/)
 
-**By it's nature, JavaScript lacks the performance to implement Computer Vision tasks efficiently. Therefore this package brings the performance of the native OpenCV C++ library to your Node.js application.**
+**By it's nature, JavaScript lacks the performance to implement Computer Vision tasks efficiently. Therefore this package brings the performance of the native OpenCV C++ library to your Node.js application. Bindings to OpenCV 3 are available as an asynchronous (currently under construction) and synchronous API.**
 
  * **[Examples](#examples)**
  * **[API Documentation](https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/README.md)**
@@ -202,9 +202,15 @@ const matAsArray = matBGR.getDataAsArray();
 ``` javascript
 // load image from file
 const mat = cv.imread('./path/img.jpg');
+cv.imreadAsync('./path/img.jpg', (err, mat) => {
+  ...
+})
 
 // save image
 cv.imwrite('./path/img.png', mat);
+cv.imwriteAsync('./path/img.jpg', (err) => {
+  ...
+})
 
 // show image
 cv.imshow('a window name', mat);
@@ -218,6 +224,12 @@ const wCap = new cv.VideoCapture(devicePort);
 const vCap = new cv.VideoCapture('./path/video.mp4');
 
 // read frames from capture
+const frame = vCap.read();
+vCap.readAsync((err, frame) => {
+  ...
+});
+
+// loop through the capture
 const delay = 10;
 let done = false;
 while (!done) {
