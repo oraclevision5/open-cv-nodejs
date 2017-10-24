@@ -5,7 +5,7 @@ open-cv-nodejs
 [![npm download](https://img.shields.io/npm/dm/open-cv-nodejs.svg?style=flat)](https://www.npmjs.com/package/open-cv-nodejs)
 [![node version](https://img.shields.io/badge/node.js-%3E=_6-green.svg?style=flat)](http://nodejs.org/download/)
 
-**By it's nature, JavaScript lacks the performance to implement Computer Vision tasks efficiently. Therefore this package brings the performance of the native OpenCV C++ library to your Node.js application. Bindings to OpenCV 3 are available as an asynchronous (callbacked and promisified, currently under construction) and synchronous API.**
+**By its nature, JavaScript lacks the performance to implement Computer Vision tasks efficiently. Therefore this package brings the performance of the native OpenCV library to your Node.js application. Supports all OpenCV 3 versions. The bindings are available as an asynchronous (via promises or callbacks) and synchronous API.**
 
  * **[Examples](#examples)**
  * **[API Documentation](https://github.com/oraclevision5/open-cv-nodejs/tree/master/doc/README.md)**
