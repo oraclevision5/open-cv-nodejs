@@ -1,6 +1,7 @@
 open-cv-nodejs
 =============
 [![Build Status](https://travis-ci.org/oraclevision5/open-cv-nodejs.svg?branch=master)](http://travis-ci.org/oraclevision5/open-cv-nodejs)
+[![Build status](https://ci.appveyor.com/api/projects/status/cv3o65nrosh1udbb/branch/master?svg=true)](https://ci.appveyor.com/project/oraclevision5/open-cv-nodejs/branch/master)
 [![Coverage](https://codecov.io/github/oraclevision5/open-cv-nodejs/coverage.svg?branch=master)](https://codecov.io/gh/oraclevision5/open-cv-nodejs)
 [![npm download](https://img.shields.io/npm/dm/open-cv-nodejs.svg?style=flat)](https://www.npmjs.com/package/open-cv-nodejs)
 [![node version](https://img.shields.io/badge/node.js-%3E=_6-green.svg?style=flat)](http://nodejs.org/download/)
