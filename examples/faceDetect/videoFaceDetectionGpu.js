@@ -1,5 +1,6 @@
 const {
-  cv
+  cv,
+  getDataFilePath
 } = require('../utils');
 
 if (cv.version.minor === 4) {
@@ -7,6 +8,8 @@ if (cv.version.minor === 4) {
 }
 
 const { runVideoFaceDetection } = require('./commons');
+
+const videoFile = getDataFilePath('people.mp4');
 
 const classifier = new cv.CascadeClassifier(cv.HAAR_FRONTALFACE_ALT2);
 
@@ -18,4 +21,4 @@ function detectFaces(img) {
   return classifier.detectMultiScaleGpu(img.bgrToGray(), options);
 }
 
-runVideoFaceDetection(detectFaces);
+runVideoFaceDetection(videoFile, detectFaces);
