@@ -141,6 +141,8 @@ Or simply pull from [oraclevision5/opencv-nodejs](https://hub.docker.com/r/oracl
 FROM oraclevision5/opencv-nodejs
 ```
 
+**Note**: The aforementioned Docker image does not have build tools installed. In order to prevent errors during an ```npm install```, you can either install open-cv-nodejs globally and link to it in your project or install production packages only in your Dockerfile.
+
 Different OpenCV 3.x base images can be found here: https://hub.docker.com/r/oraclevision5/.
 
 <a name="usage-with-electron"></a>
