@@ -141,6 +141,8 @@ Or simply pull from [oraclevision5/opencv-nodejs](https://hub.docker.com/r/oracl
 FROM oraclevision5/opencv-nodejs
 ```
 
+**Note**: The aforementioned Docker image already has ```open-cv-nodejs``` installed globally. In order to prevent build errors during an ```npm install```, your ```package.json``` should not include ```open-cv-nodejs```, and instead should include/require the global package either by requiring it by absolute path or setting the ```NODE_PATH``` environment variable to ```/usr/lib/node_modules``` in your Dockerfile and requiring the package as you normally would.
+
 Different OpenCV 3.x base images can be found here: https://hub.docker.com/r/oraclevision5/.
 
 <a name="usage-with-electron"></a>
