@@ -1,3 +1,5 @@
+**05/2022: This repository is not maintained anymore**, please use [@u4/open-cv-nodejs](https://github.com/UrielCh/open-cv-nodejs) for a more active fork
+
 open-cv-nodejs
 =============
 
